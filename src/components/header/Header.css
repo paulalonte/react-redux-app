@@ -1,0 +1,13 @@
+span.count-container {
+    display: inline-block;
+    background: green;
+    color: white;
+    margin-left: 2px;
+    border-radius: 6px;
+    padding: 0 5px;
+}
+
+.navbar-nav a {
+    display: inline-block;
+    margin: 0 5px;
+}

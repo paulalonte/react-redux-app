@@ -1,0 +1,13 @@
+.detail button {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+.detail span {
+    border-bottom: 1px solid #999;
+    display: inline-block;
+    min-width: 88px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 6px 0;
+}

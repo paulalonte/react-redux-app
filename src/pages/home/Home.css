@@ -1,0 +1,17 @@
+main {
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.menu-list {
+    width: 20%;
+    height: 100%;
+}
+
+.menu-detail {
+    width: 80%;
+    padding: 20px;
+}

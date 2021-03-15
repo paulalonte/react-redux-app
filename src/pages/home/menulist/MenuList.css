@@ -1,0 +1,21 @@
+.list {
+    padding: 30px 20px;
+    background: lightblue;
+    border-radius: 1em;
+}
+
+.list button {
+    font-size: 1.2em;
+    padding: 4px 8px;
+    min-width: 180px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-container > li:not(:last-child) {
+    margin-bottom: 30px;
+}
