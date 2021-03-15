@@ -11,7 +11,7 @@ const CartItem = ({order}) => {
         <td>{order.price}</td>
         <td>{order.qty}</td>
         <td>{order.totalPrice}</td>
-        <td><button type="button" onClick={() => deleteOrder(dispatch, order.id)}>Remove</button> </td>
+        <td><button className="btn btn-danger" type="button" onClick={() => deleteOrder(dispatch, order.id)}>Remove</button> </td>
       </tr>
     )
 }
