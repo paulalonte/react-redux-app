@@ -7,8 +7,8 @@ import './App.css';
 function App() {
   return (
     <>
+      <Header />
       <div className="container">
-        <Header />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/cart" component={Cart} />

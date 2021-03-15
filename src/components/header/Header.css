@@ -10,4 +10,13 @@ span.count-container {
 .navbar-nav a {
     display: inline-block;
     margin: 0 5px;
+    color: white;
+}
+
+.logo a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
 }

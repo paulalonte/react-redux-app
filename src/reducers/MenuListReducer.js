@@ -11,7 +11,7 @@ const initialState =
                 {
                     id: 0,
                     name: 'Cake',
-                    desc: 'This is my cake',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -19,7 +19,7 @@ const initialState =
                 {
                     id: 1,
                     name: 'Tuna Pasta',
-                    desc: 'This is my pasta tuna',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -33,7 +33,7 @@ const initialState =
                 {
                     id: 2,
                     name: 'Soup',
-                    desc: 'This is my Soup',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -41,7 +41,7 @@ const initialState =
                 {
                     id: 3,
                     name: 'Biscuit',
-                    desc: 'This is my Biscuit',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -55,7 +55,7 @@ const initialState =
                 {
                     id: 10,
                     name: 'Beef Steak',
-                    desc: 'This is my Beef',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 120,
                     qty: 0,
                     totalPrice: 0
@@ -63,7 +63,7 @@ const initialState =
                 {
                     id: 11,
                     name: 'Shrimp Gambas',
-                    desc: 'This is my Shrimp',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 180,
                     qty: 0,
                     totalPrice: 0
@@ -71,7 +71,7 @@ const initialState =
                 {
                     id: 12,
                     name: 'Pork Belly',
-                    desc: 'This is my Pork',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 100,
                     qty: 0,
                     totalPrice: 0

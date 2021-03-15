@@ -41,6 +41,8 @@ const MenuDetail = () => {
                 <span>{quantityItem}</span>
                 <button className="btn" type="button" disabled={quantityItem < 1} onClick={() => incrementQuantity(dispatch, productSelected.id)}>+</button>
                 <button className="btn btn-warning" type="button" disabled={quantityItem >= 1} onClick={() => addOrder(dispatch, productSelected)}>Add Item</button>             
+                <hr></hr>
+                <p>{productSelected.desc}</p>
             </section>
             : <h2>Please select a menu</h2>}
         </div>

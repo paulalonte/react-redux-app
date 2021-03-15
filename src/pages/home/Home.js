@@ -6,7 +6,6 @@ import './Home.css';
 const Home = () => {
     return (
         <main>
-            <h1>Home Page</h1>
             <div className="flex-container">
                 <div className="menu-list"><MenuList/></div>
                 <div className="menu-detail"><MenuDetail/></div>                
