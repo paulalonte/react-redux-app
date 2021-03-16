@@ -5,8 +5,8 @@ import CartItem from './CartItem';
 const Cart = () => {
     const { orders, totalPrice, totalQuantity } = useSelector(state => state.orderListReducer)
     return (
-        <div>
-            <h1>Orders</h1>
+        <div className="cart">
+            <h1>Cart Details</h1>
             <table>
                 <thead>
                     <tr>

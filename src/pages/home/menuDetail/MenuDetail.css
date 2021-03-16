@@ -11,3 +11,19 @@
     font-size: 1.2em;
     padding: 6px 0;
 }
+
+.detail img {
+    width: 380px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 8px solid orange;
+}
+
+.image-container {
+    margin-bottom: 3em;
+}
+
+.detail h1 {
+    margin-bottom: 0.6em;
+}

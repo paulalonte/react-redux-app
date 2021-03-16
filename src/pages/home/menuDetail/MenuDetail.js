@@ -38,6 +38,9 @@ const MenuDetail = () => {
             {(hasProductSelected) ? 
             <section>
                 <h1>{productSelected.name}</h1>
+                <div className="image-container">
+                    <img src={productSelected.image} alt={productSelected.name}/>
+                </div>
                 <button className="btn" type="button" disabled={quantityItem <= 0} onClick={() => decrementQuantity(dispatch, productSelected.id)}>-</button>
                 <span>{quantityItem}</span>
                 <button className="btn" type="button" disabled={quantityItem < 1} onClick={() => incrementQuantity(dispatch, productSelected.id)}>+</button>
