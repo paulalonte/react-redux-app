@@ -6,7 +6,7 @@ const MenuItem = ({ item }) => {
     const dispatch = useDispatch();
     return (
         <li>            
-            <button className="btn btn-success" type="button" onClick={() => getMenuItem(dispatch, item.id)}>{item.name}!!!</button>
+            <button className="btn btn-success" type="button" onClick={() => getMenuItem(dispatch, item.id)}>{item.name}</button>
         </li>
     )
 }

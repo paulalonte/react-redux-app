@@ -6,9 +6,9 @@ import './Home.css';
 const Home = () => {
     return (
         <main>
-            <div className="flex-container">
-                <div className="menu-list"><MenuList/></div>
-                <div className="menu-detail"><MenuDetail/></div>                
+            <div className="row">
+                <div className="col-lg-3 col-md-4"><MenuList/></div>
+                <div className="col-lg-9 col-md-8"><MenuDetail/></div>                
             </div>
         </main>
     )

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import './MenuDetail.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { addOrder, incrementQuantity, decrementQuantity } from '../../../actions/OrderAction';
@@ -43,6 +44,9 @@ const MenuDetail = () => {
                 <button className="btn btn-warning" type="button" disabled={quantityItem >= 1} onClick={() => addOrder(dispatch, productSelected)}>Add Item</button>             
                 <hr></hr>
                 <p>{productSelected.desc}</p>
+                <div>
+                    <Link to="/cart" className="btn btn-warning">View Cart</Link>
+                </div>
             </section>
             : <h2>Please select a menu</h2>}
         </div>

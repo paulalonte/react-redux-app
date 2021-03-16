@@ -11,7 +11,7 @@ const Header = () => {
             <Navbar bg="dark" expand="lg">
                 <div className="container">
                     <Navbar.Brand className="logo"><Link to="/">Restaurant App</Link></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <Link to="/">Home</Link>
