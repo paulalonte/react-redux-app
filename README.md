@@ -1,4 +1,4 @@
 # React App using Redux and Routing
 
-UI styling using Bootstrap
+Sample Restaurant App using Redux for handling state management. UI styling using Bootstrap
 
