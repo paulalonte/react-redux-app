@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './MenuDetail.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { addOrder, incrementQuantity, decrementQuantity } from '../../../actions/OrderAction';
+import { currencyFormatter } from '../../../utils/currencyFormatter';
 
 const MenuDetail = () => {
     const { productSelected } = useSelector(state => state.menuListReducer);
@@ -37,7 +38,7 @@ const MenuDetail = () => {
         <div className="detail">
             {(hasProductSelected) ? 
             <section>
-                <h1>{productSelected.name}</h1>
+                <h1>{productSelected.name}<span className="price-label">{currencyFormatter(productSelected.price)}</span></h1>
                 <div className="image-container">
                     <img src={productSelected.image} alt={productSelected.name}/>
                 </div>

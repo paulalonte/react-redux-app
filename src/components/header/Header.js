@@ -5,7 +5,7 @@ import './Header.css';
 import { Navbar, Nav } from 'react-bootstrap';
 
 const Header = () => {
-    const { orders, totalQuantity } = useSelector(state => state.orderListReducer)
+    const { totalQuantity } = useSelector(state => state.orderListReducer)
     return (
         <header>
             <Navbar bg="dark" expand="lg">
@@ -15,6 +15,7 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <Link to="/">Home</Link>
+                            <Link to="/admin">Admin</Link>
                             <Link to="/cart">Cart<span className="count-container">{totalQuantity}</span></Link>
                         </Nav>
                     </Navbar.Collapse>

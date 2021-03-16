@@ -1,12 +1,13 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import CartItem from './CartItem';
+import { currencyFormatter } from '../../utils/currencyFormatter';
 
 const Cart = () => {
     const { orders, totalPrice, totalQuantity } = useSelector(state => state.orderListReducer)
     return (
         <div className="cart">
-            <h1>Cart Details</h1>
+            <h1 className="page-title">Cart Details</h1>
             <table>
                 <thead>
                     <tr>
@@ -19,10 +20,15 @@ const Cart = () => {
                 </thead>
                 <tbody>
                     {orders.map(order => <CartItem key={order.id} order={order}/>)}
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><h2>{totalQuantity}</h2></td>
+                        <td><h2>{currencyFormatter(totalPrice)}</h2></td>
+                        <td></td>
+                    </tr>
                 </tbody>
             </table>
-            <h3>Total Quantity {totalQuantity}</h3>
-            <h2>Total Price {totalPrice}</h2>
         </div>
     )
 }

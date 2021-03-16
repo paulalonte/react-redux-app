@@ -1,5 +1,6 @@
 export const GET_MENU_LIST = 'get-menu-list';
 export const GET_MENU_ITEM = 'get-menu-item';
+export const ADD_MENU_LIST = 'add-menu-list';
 
 export const ADD_ORDER_ITEM = 'add-order-item';
 export const DELETE_ORDER_ITEM = 'delete-order-item';
