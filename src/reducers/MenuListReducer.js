@@ -11,7 +11,7 @@ const initialState =
                 {
                     id: 0,
                     name: 'Cake',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
+                    desc: 'Cake Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -19,7 +19,7 @@ const initialState =
                 {
                     id: 1,
                     name: 'Tuna Pasta',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
+                    desc: 'Tuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -33,7 +33,7 @@ const initialState =
                 {
                     id: 2,
                     name: 'Soup',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
+                    desc: 'Soup Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -41,7 +41,7 @@ const initialState =
                 {
                     id: 3,
                     name: 'Biscuit',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
+                    desc: 'Biscuit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 30,
                     qty: 0,
                     totalPrice: 0
@@ -55,7 +55,7 @@ const initialState =
                 {
                     id: 10,
                     name: 'Beef Steak',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
+                    desc: 'Beef Steak Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 120,
                     qty: 0,
                     totalPrice: 0
@@ -63,7 +63,7 @@ const initialState =
                 {
                     id: 11,
                     name: 'Shrimp Gambas',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
+                    desc: 'Shrimp Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 180,
                     qty: 0,
                     totalPrice: 0
@@ -71,7 +71,7 @@ const initialState =
                 {
                     id: 12,
                     name: 'Pork Belly',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
+                    desc: 'Pork Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et porttitor velit, eu dapibus enim. Curabitur rhoncus pretium rutrum. Nulla facilisi. Nulla maximus sed magna non placerat. Ut in porttitor eros, et finibus odio. ',
                     price: 100,
                     qty: 0,
                     totalPrice: 0
