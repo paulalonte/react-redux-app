@@ -20,7 +20,7 @@ const Admin = () => {
     }
 
     useEffect(() => {
-        
+        console.log('refresh products');
     }, [products])
 
     return (

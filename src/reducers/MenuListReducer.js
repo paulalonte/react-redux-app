@@ -101,7 +101,8 @@ export const menuListReducer = (state = initialState, action) => {
     }
 }
 
-const addNewListItem = (state, action) => {
+const addNewListItem = (oldState, action) => {
+    const state = {...oldState};
     const itemObj = action.payload.item;
     const newItem = { 
         id: Date.now(),
